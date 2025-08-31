@@ -94,7 +94,7 @@ if model is not None:
             st.subheader("📈 Resultado de la Predicción")
             # Mostramos el resultado en un cuadro de éxito, formateado a dos decimales.
             st.success(f"**Rendimiento Predicho:** `{prediction_value[0]:.2f}%`")
-            st.info("Este valor representa el porcentaje estimado del producto deseado que se recuperará.")
+            st.info("Este valor representa el porcentaje de silica en el concentrado.")
         except Exception as e:
             st.error(f"Ocurrió un error durante la predicción: {e}")
 else:
