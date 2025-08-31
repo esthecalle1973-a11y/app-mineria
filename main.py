@@ -37,8 +37,8 @@ with st.sidebar:
     # Slider para el caudal de alimentación de amina
     AminaFlow = st.slider(
         label='Flujo de amina (m³/s)',
-        min_value=241.70237,
-        max_value=739.304,
+        min_value=241,
+        max_value=739,
         value=300, # Valor inicial
         step=1
     )
@@ -47,8 +47,8 @@ with st.sidebar:
     # Slider para flujo e aire
     AirFlow = st.slider(
         label='Flujo de aire',
-        min_value=175.84734,
-        max_value=372.44264,
+        min_value=175,
+        max_value=372,
         value=180,
         step=1
     )
@@ -57,8 +57,8 @@ with st.sidebar:
     # Slider para la diferencia de presión
     IronConcentrate = st.slider(
         label='Porcentaje de concentración de hierro',
-        min_value=62.05,
-        max_value=68.01,
+        min_value=62,
+        max_value=68,
         value=65,
         step=1
     )
