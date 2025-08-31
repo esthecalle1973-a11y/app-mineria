@@ -65,14 +65,14 @@ with st.sidebar:
     st.caption("Porcentaje de concentración de hierro.")
 
 # --- Contenido de la Página Principal ---
-st.title("🧪 Predictor de Prcoeso de Flotación")
+st.title("🧪 Predictor de % de concentración de sílica en Prcoceso de Flotación")
 st.markdown("""
-¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el rendimiento de un producto químico en un proceso de flotación basándose en parámetros operativos clave.
+¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el rendimiento de un producto químico en un proceso de flotación basándose en parámetros operativos claves. Los parámetros fueron evaluados fueron flujo de aire en columna de flotación 01, flujo de amina y % concentración de hierro. 
 
 **Esta herramienta puede ayudar a los ingenieros de procesos y operadores a:**
-- **Optimizar** las condiciones de operación para obtener el máximo rendimiento.
-- **Predecir** el impacto de los cambios en el proceso antes de implementarlos.
-- **Solucionar** problemas potenciales simulando diferentes escenarios.
+- **Optimizar** las condiciones de operación, flujo de aire y de amina y % de concentración de hierro. 
+- **Predecir** el impacto de las variables mencionadas anteriormente en el % de cocnentraciión de silica .
+- **Solucionar** problemas potenciales simulando diferentes escenarios mediante un análisis multivariable.
 """)
 
 # --- Lógica de Predicción ---
