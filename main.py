@@ -36,7 +36,7 @@ with st.sidebar:
 
     # Slider para el caudal de alimentación de amina
     AminaFlow = st.slider(
-        label='Flujo de amina (m³/s)',
+        label='Flujo de amina',
         min_value=241,
         max_value=739,
         value=300, # Valor inicial
@@ -56,7 +56,7 @@ with st.sidebar:
 
     # Slider para la diferencia de presión
     IronConcentrate = st.slider(
-        label='Porcentaje de concentración de hierro',
+        label='Porcentaje de hierro en el concentrado',
         min_value=62,
         max_value=68,
         value=65,
@@ -67,11 +67,11 @@ with st.sidebar:
 # --- Contenido de la Página Principal ---
 st.title("🧪 Predictor de % de concentración de sílica en Prcoceso de Flotación")
 st.markdown("""
-¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el rendimiento de un producto químico en un proceso de flotación basándose en parámetros operativos claves. Los parámetros evaluados fueron flujo de aire en columna de flotación 01, flujo de amina y % concentración de hierro. 
+¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el porcentaje de sílice  en un proceso de flotación basándose en parámetros operativos claves. Los parámetros evaluados fueron flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. 
 
 **Esta herramienta puede ayudar a los ingenieros de procesos y operadores a:**
-- **Optimizar** las condiciones de operación, flujo de aire y de amina y % de concentración de hierro. 
-- **Predecir** el impacto de las variables mencionadas anteriormente en el % de cocnentraciión de silica .
+- **Optimizar** las condiciones de operación como: flujo de aire, flujo de amina y porcentaje de hierro. 
+- **Predecir** el impacto de las variables mencionadas anteriormente en el porcentaje de silica en el concentrado.
 - **Solucionar** problemas potenciales simulando diferentes escenarios mediante un análisis multivariable.
 """)
 
@@ -79,7 +79,7 @@ st.markdown("""
 # Solo intentamos predecir si el modelo se ha cargado correctamente.
 if model is not None:
     # El botón principal que el usuario presionará para obtener un resultado.
-    if st.button('🚀 Predecir Rendimiento', type="primary"):
+    if st.button('🚀 Predecir porcentaje de silica en el concentrado', type="primary"):
         # Creamos un DataFrame de pandas con las entradas del usuario.
         # ¡Es crucial que los nombres de las columnas coincidan exactamente con los que el modelo espera!
         df_input = pd.DataFrame({
