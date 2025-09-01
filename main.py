@@ -52,7 +52,7 @@ with st.sidebar:
         value=180,
         step=1
     )
-    st.caption("El flujo de aire.")
+    st.caption("El flujo de aire inyectado.")
 
     # Slider para la diferencia de presión
     IronConcentrate = st.slider(
