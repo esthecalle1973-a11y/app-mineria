@@ -67,7 +67,7 @@ with st.sidebar:
 # --- Contenido de la Página Principal ---
 st.title("🧪 Predictor de % de concentración de sílica en Prcoceso de Flotación")
 st.markdown("""
-¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el porcentaje de sílice  en un proceso de flotación basándose en parámetros operativos claves. Los parámetros evaluados fueron flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. 
+¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el porcentaje de sílice  en un proceso de flotación basándose en parámetros operativos claves. Los parámetros evaluados fueron: flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. 
 
 **Esta herramienta puede ayudar a los ingenieros de procesos y operadores a:**
 - **Optimizar** las condiciones de operación como: flujo de aire, flujo de amina y porcentaje de hierro. 
