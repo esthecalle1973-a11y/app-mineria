@@ -109,11 +109,11 @@ with st.expander("ℹ️ Sobre la Aplicación"):
 
     1.  **Datos de Entrada:** Proporcionas los parámetros operativos clave usando los deslizadores en la barra lateral.
     2.  **Predicción:** El modelo de machine learning pre-entrenado recibe estas entradas y las analiza basándose en los patrones que aprendió de datos históricos.
-    3.  **Resultado:** La aplicación muestra el rendimiento final predicho como un porcentaje.
+    3.  **Resultado:** La aplicación muestra porcentaje de silica contenida en el concentrado.
 
     **Detalles del Modelo:**
 
     * **Tipo de Modelo:** `Regression Model` (XGBoost Optimizado)
-    * **Propósito:** Predecir el valor continuo del rendimiento de la destilación.
-    * **Características Usadas:** Caudal de Alimentación, Temperatura del Rehervidor y Diferencia de Presión.
+    * **Propósito:** Predecir el porcentaje de silica en el concentrado.
+    * **Características Usadas:** Flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. .
     """)
