@@ -42,7 +42,7 @@ with st.sidebar:
         value=300, # Valor inicial
         step=1
     )
-    st.caption("Representa el flujo de amina en metros cúbicos por segundo.")
+    st.caption("Representa el flujo de amina.")
 
     # Slider para flujo e aire
     AirFlow = st.slider(
