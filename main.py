@@ -65,7 +65,7 @@ with st.sidebar:
     st.caption("Porcentaje de hierro en el concentrado.")
 
 # --- Contenido de la Página Principal ---
-st.title("🧪 Predictor de % de concentración de sílica en Prcoceso de Flotación")
+st.title("🧪 Predictor de porcentaje de sílice en el concentrado de Prcoceso de Flotación")
 st.markdown("""
 ¡Bienvenido! Esta aplicación utiliza un modelo de machine learning para predecir el porcentaje de sílice  en un proceso de flotación basándose en parámetros operativos claves. Los parámetros evaluados fueron: flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. 
 
