@@ -46,7 +46,7 @@ with st.sidebar:
 
     # Slider para flujo e aire
     AirFlow = st.slider(
-        label='Flujo de aire',
+        label='Flujo de aire en la columna de flotación 01',
         min_value=175,
         max_value=372,
         value=180,
@@ -62,7 +62,7 @@ with st.sidebar:
         value=65,
         step=1
     )
-    st.caption("Porcentaje de concentración de hierro.")
+    st.caption("Porcentaje de hierro en el concentrado.")
 
 # --- Contenido de la Página Principal ---
 st.title("🧪 Predictor de % de concentración de sílica en Prcoceso de Flotación")
