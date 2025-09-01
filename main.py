@@ -115,5 +115,5 @@ with st.expander("ℹ️ Sobre la Aplicación"):
 
     * **Tipo de Modelo:** `Regression Model` (XGBoost Optimizado)
     * **Propósito:** Predecir el porcentaje de silica en el concentrado.
-    * **Características Usadas:** Flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado. .
+    * **Características Usadas:** Flujo de aire en columna de flotación 01, flujo de amina y porcentaje de hierro en el concentrado.
     """)
